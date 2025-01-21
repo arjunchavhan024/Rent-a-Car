@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent a Car</title>
+</head>
+<body>
+    <h3>Create a New Listing</h3>
+    <form method="POST" action="/listings">
+        <input name="listing[title]" style="margin: 10px;" type="text"  placeholder="Enter a title">
+        <br>
+        <textarea name="listing[descriiption]" style="margin: 10px;" type="text"  placeholder="Enter a descriiption"></textarea>
+        <br>
+        <input name="listing[image]" style="margin: 10px;" type="text"  placeholder="Enter image link/URL">
+        <br>
+        <input name="listing[price]" style="margin: 10px;" type="number" placeholder="Enter price">
+        <br>
+        <input  name="listing[location]" style="margin: 10px;" type="text" placeholder="Enter a location">
+        <br>
+        <button style="margin: 10px;">Add</button>
+    </form>
+    
+</body>
+</html>
